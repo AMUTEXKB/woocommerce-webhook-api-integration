@@ -5,6 +5,8 @@ This repository contains code for integrating a webhook with the WooCommerce API
 To use this code, you will need to have access to a web server running PHP. You can download the code from this repository and upload it to your web server, or you can clone the repository directly onto your server using Git.
 
 You will also need to configure a webhook in your WooCommerce store to send notifications to the URL where you have uploaded this code. Instructions for setting up a webhook can be found in the WooCommerce documentation.
+# Architecture drawing
+![Architecture image](./image/woocommerce.png)
 
 # Usage
 Once you have installed and configured the code, it will automatically receive webhook notifications from your WooCommerce store when certain events occur. The code includes functions for parsing and handling the data received from the webhook, allowing you to take actions such as sending email notifications or updating your database.
